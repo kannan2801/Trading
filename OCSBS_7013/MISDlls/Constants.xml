@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Constants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TOKEN_MULTIPLIER>10000000</TOKEN_MULTIPLIER>
+  <LOGGER_FILE_NAME>Logs.txt</LOGGER_FILE_NAME>
+  <LOGGER_ENABLED>false</LOGGER_ENABLED>
+  <REQUEST_NEWS_ONRECONNECT>false</REQUEST_NEWS_ONRECONNECT>
+  <Trace_Detail>VERYHIGH</Trace_Detail>
+  <Trace_ListenerType>File</Trace_ListenerType>
+  <AUTH_VERSIONNO>6.0.0.0</AUTH_VERSIONNO>
+  <AUTH_USERTYPE>501</AUTH_USERTYPE>
+  <AUTH_DEALERID>SBSRV</AUTH_DEALERID>
+  <AUTH_GROUPID>SBSRV</AUTH_GROUPID>
+  <AUTH_LIVEBROKERID>SBSRV</AUTH_LIVEBROKERID>
+  <AUTH_PASSWORD>SBSRV</AUTH_PASSWORD>
+  <AUTH_CONNECTIONTYPE>1</AUTH_CONNECTIONTYPE>
+  <MESSAGE_DOWNLOADREQUESTSIZE>38</MESSAGE_DOWNLOADREQUESTSIZE>
+  <DBRECEIVER_OPTION>1</DBRECEIVER_OPTION>
+  <DBRECEIVER_MARKETSEGMENTID>1</DBRECEIVER_MARKETSEGMENTID>
+  <COMPRESSION_ALGORITHM>1</COMPRESSION_ALGORITHM>
+  <COMPRESSION_LZO_COMPDESTSIZE>4096</COMPRESSION_LZO_COMPDESTSIZE>
+  <COMPRESSION_x005F_XCEED_COMPSRCSIZE>16384</COMPRESSION_x005F_XCEED_COMPSRCSIZE>
+  <COMPRESSION_x005F_XCEED_DCOMPSRCSIZE>16384</COMPRESSION_x005F_XCEED_DCOMPSRCSIZE>
+  <COMPRESSION_USE_STATICINSTANCE>false</COMPRESSION_USE_STATICINSTANCE>
+  <COMPRESSION_RECOVERY_ALGORITHM>1</COMPRESSION_RECOVERY_ALGORITHM>
+  <HEARTBEAT_Interval>10000</HEARTBEAT_Interval>
+  <HEARTBEAT_ConnectionTypes>2</HEARTBEAT_ConnectionTypes>
+  <HEARTBEAT_IdleClientPollInterval>1000</HEARTBEAT_IdleClientPollInterval>
+  <DYNAMIC_TYPEOFPACKING>true</DYNAMIC_TYPEOFPACKING>
+  <MBOMBP_EXCHANGEWISE>true</MBOMBP_EXCHANGEWISE>
+  <MULTICAST_TIMETOLIVE>255</MULTICAST_TIMETOLIVE>
+  <ROUNDROBIN_Enabled>false</ROUNDROBIN_Enabled>
+  <ROUNDROBIN_Interval>300</ROUNDROBIN_Interval>
+  <ROUNDROBIN_InActivePeriod>300</ROUNDROBIN_InActivePeriod>
+  <ROUNDROBIN_BroadcastFrequency>10</ROUNDROBIN_BroadcastFrequency>
+  <REPORT_ROUNDROBIN_Enabled>false</REPORT_ROUNDROBIN_Enabled>
+  <REPORT_ROUNDROBIN_Interval>300</REPORT_ROUNDROBIN_Interval>
+  <REPORT_ROUNDROBIN_InActivePeriod>300</REPORT_ROUNDROBIN_InActivePeriod>
+  <REPORT_ROUNDROBIN_BroadcastFrequency>10</REPORT_ROUNDROBIN_BroadcastFrequency>
+  <TagLogonResponse_Size>1008</TagLogonResponse_Size>
+  <UserID_Bytes_Position>650</UserID_Bytes_Position>
+  <UserID_Bytes_Offset>4</UserID_Bytes_Offset>
+  <DealerID_Bytes_Position>533</DealerID_Bytes_Position>
+  <DealerID_Bytes_Offset>16</DealerID_Bytes_Offset>
+  <PING_Enabled>false</PING_Enabled>
+  <PING_TimeOut>2000</PING_TimeOut>
+  <PING_Interval>1000</PING_Interval>
+  <ReportsID>
+    <ID>7215</ID>
+    <ID>7214</ID>
+    <ID>7216</ID>
+    <ID>7217</ID>
+    <ID>7218</ID>
+    <ID>7219</ID>
+  </ReportsID>
+  <MarketSegmentID>12</MarketSegmentID>
+  <DUMPPARSEERROR_Enabled>false</DUMPPARSEERROR_Enabled>
+  <ProductVersion>9.0.0.0</ProductVersion>
+  <MBOMBP_SBS_SUBSCRIPTION>false</MBOMBP_SBS_SUBSCRIPTION>
+  <CLIENT_MAX_QUEUE_COUNT>80</CLIENT_MAX_QUEUE_COUNT>
+  <CLIENT_MAX_QUEUE_COUNT_RESERVED>3000</CLIENT_MAX_QUEUE_COUNT_RESERVED>
+  <CLIENT_MAX_NON_SUBSCRIPTION_QUEUE_COUNT>100</CLIENT_MAX_NON_SUBSCRIPTION_QUEUE_COUNT>
+  <m_bEnableDuplicates>true</m_bEnableDuplicates>
+  <Enable_New_Segments>false</Enable_New_Segments>
+  <Enable_Practice_Trading>false</Enable_Practice_Trading>
+  <Enable_XPLAZA>false</Enable_XPLAZA>
+  <MIS_PASSWORD_PROTECTION>false</MIS_PASSWORD_PROTECTION>
+  <MIS_RECONNECT_ENABLE>false</MIS_RECONNECT_ENABLE>
+  <PERSIST_BSE_MBOMBP>true</PERSIST_BSE_MBOMBP>
+  <MarketToday_TCP_Only>true</MarketToday_TCP_Only>
+  <Enable_Auctionsupport_NSE>true</Enable_Auctionsupport_NSE>
+  <Enable_Message_String>true</Enable_Message_String>
+  <Enable_Resend_Reconnect>true</Enable_Resend_Reconnect>
+  <SEND_RESPONSE_DATA_TCP>1</SEND_RESPONSE_DATA_TCP>
+  <Enable_Request_Compression>true</Enable_Request_Compression>
+  <Enable_StructTOByte_Request>true</Enable_StructTOByte_Request>
+  <Enable_MISADMIN_PWD>false</Enable_MISADMIN_PWD>
+  <Optimized_Dynamic_Structures>true</Optimized_Dynamic_Structures>
+  <Enable_MSMQ_Thread_Priority>true</Enable_MSMQ_Thread_Priority>
+  <Convert_RoundRobin_to_TL>false</Convert_RoundRobin_to_TL>
+  <Enable_Reserved_Duplicate>true</Enable_Reserved_Duplicate>
+  <Enable_New_Logon_Struct>true</Enable_New_Logon_Struct>
+  <Enable_UDP_Duplicate>true</Enable_UDP_Duplicate>
+  <Enable_Mini_Touchline>false</Enable_Mini_Touchline>
+  <Version_Integrated>true</Version_Integrated>
+  <ENABLE_HTTP_HEADER>false</ENABLE_HTTP_HEADER>
+  <Send_Previous_Close>false</Send_Previous_Close>
+  <StepBroadcastCounts>
+    <StepBroadcastCount MarketSegmentId="1" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="2" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="8" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="16" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="32" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="64" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="1024" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="128" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="4" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="256" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="257" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="2048" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="16385" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="1025" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="2049" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="512" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="4096" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="8192" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="16384" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="513" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="8193" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="524288" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="1048576" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="67108864" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="134217728" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="65536" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="65537" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="536870912" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="8388608" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="8388609" StepCount="0" />
+    <StepBroadcastCount MarketSegmentId="2097152" StepCount="0" />
+  </StepBroadcastCounts>
+  <OMS_Authentication_Required>true</OMS_Authentication_Required>
+  <BSE_Ecast_Mode>4</BSE_Ecast_Mode>
+  <Disable_Duplicate_Connectios>true</Disable_Duplicate_Connectios>
+  <MAX_MTL_SIZE_TO_SEND_MAIN_THREAD>100</MAX_MTL_SIZE_TO_SEND_MAIN_THREAD>
+  <MTL_THREAD_NUM_MTLPACKETS>100</MTL_THREAD_NUM_MTLPACKETS>
+  <MTL_THREAD_DELAY_TOSEND>0</MTL_THREAD_DELAY_TOSEND>
+  <Enable_IPC_Channel>false</Enable_IPC_Channel>
+  <Enable_BCast_Auction_BSE>true</Enable_BCast_Auction_BSE>
+  <Enable_Receive_HPC_Bcast>false</Enable_Receive_HPC_Bcast>
+  <Receive_DBDetails_Through_WebService>false</Receive_DBDetails_Through_WebService>
+  <JULIAN_DATE>false</JULIAN_DATE>
+  <JULIAN_DATE_FORMAT>yyyy-MM-dd HHmmss</JULIAN_DATE_FORMAT>
+  <Enable_UserType_Verification>false</Enable_UserType_Verification>
+  <INDEX_SEGMENT_ID>1,8,32,128,512,1025</INDEX_SEGMENT_ID>
+  <Update_LTT_Index>true</Update_LTT_Index>
+  <Enable_WFH_SBS_API>false</Enable_WFH_SBS_API>
+  <WFH_API_LIC_POS>783</WFH_API_LIC_POS>
+  <RemoveIdleConnection>true</RemoveIdleConnection>
+  <IdleConnectionInterval>10</IdleConnectionInterval>
+  <ZLibCompressionType>-1</ZLibCompressionType>
+  <DistributorThreadMultiplier>10</DistributorThreadMultiplier>
+  <ServerCertFile>C:\OCSBS_7016\ABL.pfx</ServerCertFile>
+  <CertFilePassword>PASSWORD</CertFilePassword>
+  <Enable_SSL>false</Enable_SSL>
+  <TCPSSLPort>4509</TCPSSLPort>
+  <Enable_LTP_Subscription>false</Enable_LTP_Subscription>
+  <Enable_StoreLogs>false</Enable_StoreLogs>
+  <LTP_PERCENT>5</LTP_PERCENT>
+  <Enable_Feed_Client>false</Enable_Feed_Client>
+  <BSEQueryTimeInterval>10000</BSEQueryTimeInterval>
+  <EnableDuplicates>true</EnableDuplicates>
+  <LogMultipleTouchlineReq>false</LogMultipleTouchlineReq>
+</Constants>
