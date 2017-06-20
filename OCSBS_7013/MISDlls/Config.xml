@@ -8,7 +8,7 @@
       <IntervalBetweenAttempts>1000</IntervalBetweenAttempts>
       <IPAddress>172.31.15.29</IPAddress>
       <Port>7013</Port>
-      <UDPPort>8013</UDPPort>
+      <UDPPort>8014</UDPPort>
       <DistributorType>TCPOnly</DistributorType>
       <ProfileType>TWS</ProfileType>
       <MulticastIP>229.255.255.255</MulticastIP>
