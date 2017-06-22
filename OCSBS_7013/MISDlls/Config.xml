@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <AppConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <m_ID>1544-7016</m_ID>
+  <m_ID>7013</m_ID>
   <ReceiverConfig>
     <TCPConfiguration>
       <Attempts>10</Attempts>
@@ -8,7 +8,7 @@
       <IntervalBetweenAttempts>1000</IntervalBetweenAttempts>
       <IPAddress>172.31.15.29</IPAddress>
       <Port>7013</Port>
-      <UDPPort>8014</UDPPort>
+      <UDPPort>8013</UDPPort>
       <DistributorType>TCPOnly</DistributorType>
       <ProfileType>TWS</ProfileType>
       <MulticastIP>229.255.255.255</MulticastIP>
@@ -29,7 +29,7 @@
       <UDPPort>9014</UDPPort>
       <Attempts>10</Attempts>
       <IPAddress>172.31.15.33</IPAddress>
-      <Port>7019</Port>
+      <Port>70195</Port>
       <DistributorType>TCPOnly</DistributorType>
       <ProfileType>TWS</ProfileType>
     </TCPNewsConfiguration>
@@ -62,19 +62,11 @@
       <TypeName>FTIL.MCX.FeedManager.Packets.TagBcastMBOOrMBPNew</TypeName>
       <DataFile>data.txt</DataFile>
     </SimulationConfig>
-    <FeedDatabaseConfiguration>
-      <TimeOut>180</TimeOut>
-      <BhavCopyProcedure>stp_GetBhavCopy</BhavCopyProcedure>
-      <OMSSessionsConfigProcedure>stp_GetOMSClientConfiguration</OMSSessionsConfigProcedure>
-      <RemoteAppDetailsProc>stp_GetRemoteAppDetails</RemoteAppDetailsProc>
-      <TimeGroupConfigProcedure>stp_GetTimeGroupConfiguration</TimeGroupConfigProcedure>
-      <SegmentId>1,2</SegmentId>
-    </FeedDatabaseConfiguration>
     <OMSConfigurations />
   </ReceiverConfig>
   <OMSVersion>10.0.0.2</OMSVersion>
   <StoreConfig>
-    <TypeOfPacking>true</TypeOfPacking>
+    <TypeOfPacking>false</TypeOfPacking>
   </StoreConfig>
   <DistributionConfig>
     <TCPEnableQueueCounters>false</TCPEnableQueueCounters>
@@ -82,7 +74,7 @@
     <UDPEnableQueueCounters>false</UDPEnableQueueCounters>
     <UDPCompletionQueuePriorityCount>100</UDPCompletionQueuePriorityCount>
     <MSMQConfiguration>
-      <Path>FormatName:DIRECT=TCP:172.31.18.12\private$\queryrequest</Path>
+      <Path>FormatName:DIRECT=TCP:172.25.102.231\private$\queryrequest</Path>
       <Format>Binary</Format>
     </MSMQConfiguration>
     <TCPLocalIp>0.0.0.0</TCPLocalIp>
@@ -91,14 +83,14 @@
     <TCPPortToNotifyOMS>7777</TCPPortToNotifyOMS>
     <TCPMaxAllowedSubscribers>1000</TCPMaxAllowedSubscribers>
     <TCPSocketConnectionsBacklog>100</TCPSocketConnectionsBacklog>
-    <TCPCompressData>false</TCPCompressData>
+    <TCPCompressData>true</TCPCompressData>
     <TCPMaxClientsToProcess>200</TCPMaxClientsToProcess>
     <TCPClientQueueSize>30</TCPClientQueueSize>
-    <TCPMinClientPacketWaitCount>20</TCPMinClientPacketWaitCount>
+    <TCPMinClientPacketWaitCount>28</TCPMinClientPacketWaitCount>
     <TCPMinClientQueueWaitSize>4096</TCPMinClientQueueWaitSize>
     <TCPMinClientTimeWaitInterval>100</TCPMinClientTimeWaitInterval>
     <TCPMinDataReceiveSize>1024</TCPMinDataReceiveSize>
-    <TCPMaxDataSendSize>512</TCPMaxDataSendSize>
+    <TCPMaxDataSendSize>4096</TCPMaxDataSendSize>
     <PoolSize>1000</PoolSize>
     <TCPInfoQueuePriority>1</TCPInfoQueuePriority>
     <DistributorType>TCPOnly</DistributorType>
@@ -114,7 +106,7 @@
     <UDPMinClientPacketWaitCount>1</UDPMinClientPacketWaitCount>
     <UDPMinClientQueueWaitSize>8192</UDPMinClientQueueWaitSize>
     <UDPMinClientTimeWaitInterval>100</UDPMinClientTimeWaitInterval>
-    <UDPCompressData>false</UDPCompressData>
+    <UDPCompressData>true</UDPCompressData>
     <UDPInfoQueuePriority>1</UDPInfoQueuePriority>
     <UDPConnectionProfileList>
       <anyType xsi:type="UDPConnectionProfile">
@@ -154,9 +146,9 @@
           <anyType xsi:type="xsd:int">8388609</anyType>
           <anyType xsi:type="xsd:int">2097152</anyType>
         </SegmentId>
-        <RemoteAddress>172.31.18.13</RemoteAddress>
+        <RemoteAddress>10.30.30.122</RemoteAddress>
         <RemotePort>8013</RemotePort>
-        <LocalAddress>172.31.18.13</LocalAddress>
+        <LocalAddress>10.30.30.122</LocalAddress>
         <MulticastGroup>239.255.255.255</MulticastGroup>
       </anyType>
       <anyType xsi:type="UDPConnectionProfile">
@@ -196,9 +188,9 @@
           <anyType xsi:type="xsd:int">8388609</anyType>
           <anyType xsi:type="xsd:int">2097152</anyType>
         </SegmentId>
-        <RemoteAddress>172.31.18.13</RemoteAddress>
+        <RemoteAddress>10.30.30.122</RemoteAddress>
         <RemotePort>8888</RemotePort>
-        <LocalAddress>172.31.18.13</LocalAddress>
+        <LocalAddress>10.30.30.122</LocalAddress>
         <MulticastGroup>239.255.255.255</MulticastGroup>
       </anyType>
     </UDPConnectionProfileList>
@@ -208,7 +200,7 @@
   <SegmentFuturesOption>0</SegmentFuturesOption>
   <SegmentSpot>0</SegmentSpot>
   <SegmentOthers>0</SegmentOthers>
-  <ID>1544-7016</ID>
+  <ID>7013</ID>
   <AppType>0</AppType>
   <RecoveryConfig>
     <Path>FormatName:DIRECT=TCP:172.20.102.231\private$\broadcast</Path>
